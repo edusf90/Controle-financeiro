@@ -19,6 +19,10 @@ export const Th = styledComponents.th`
   padding-bottom: 5px;
   text-align: ${props => (props.alignCenter ? 'center' : 'start')};
   width: ${props => (props.width ? '%' : 'auto')};
+`
 
-
+export const Thx = styledComponents.th`
+  border-bottom: inset;
+  padding-bottom: 5px;
+  text-align: center;
 `
